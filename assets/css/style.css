@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    background-color: #e3eef3;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.template__wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.left__section {
+    padding: 45px 20px;
+    width: 25%;
+    background-color: rgb(0, 36, 43);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: url(../images/photo.jpg) no-repeat;
+    background-size: 185px;
+}
+
+.main__information p, a{
+    color: #eff9f2;
+}
+
+.main__information p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.left__article {
+    margin-bottom: 20px;
+}
+
+.article__title {
+    text-align: center;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    color: #78a1bb;
+}
+
+.article__block {
+    margin: 12px 0;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.article__block p {
+    margin-bottom: 3px;
+}
+
+.article__block a {
+    text-decoration: none;
+    margin-bottom: 7px;
+    display: block;
+    transition: opacity .25s linear;
+}
+
+.article__block a:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+
+.main__section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 0 20px 0 80px;
+    width: 100%;
+}
+
+.header {
+    justify-content: center;
+    margin-top: 30px;
+    height: 200px;
+    font-family: Georgia, sans-serif;
+    background-color: #03674f;
+    color: #eff9f2;
+}
+
+.name {
+    padding-top: 35px;
+    font-size: 34px;
+    letter-spacing: 0.2rem;
+}
+
+.main {
+    margin-top: 25px;
+}
+.main .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.person__information {
+    margin-bottom: 40px;
+}
+
+.information__title {
+    margin-bottom: 20px;
+    font-family: Georgia, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.description ul {
+    padding: 0 0 0 20px;
+}
+
+.description ul li {
+    margin-bottom: 3px;
+}
+
+.description ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: opacity .30s linear;
+}
+
+.description ul li a:hover {
+    opacity: .7
+}
+
