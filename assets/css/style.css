@@ -34,11 +34,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .photo {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 170px;
     border-radius: 50%;
-    background: url(../images/photo.jpg) no-repeat;
-    background-size: 185px;
 }
 
 .main__information p, a{
