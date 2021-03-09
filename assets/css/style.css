@@ -62,9 +62,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .article__block {
-    margin: 12px 0;
+    margin: 12px 0 0 0;
     text-align: justify;
     font-size: 13px;
+    padding-left: 0;
 }
 
 .article__block p {
@@ -81,6 +82,10 @@ h1, h2, h3, h4, h5, h6 {
 .article__block a:hover {
     cursor: pointer;
     opacity: .7;
+}
+
+.article__block li {
+    list-style-type: none;
 }
 
 .main__section {
